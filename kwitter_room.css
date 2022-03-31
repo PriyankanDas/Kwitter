@@ -1,0 +1,32 @@
+body {
+    background-color: #8989ff;
+}
+
+.coming-soon-container {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 50px #00000062;
+}
+
+.coming-soon-container h1 {
+    user-select: none;
+    font-family: "Patrick Hand", cursive;
+    letter-spacing: 5px;
+    color: #8989ff;
+}
+
+.coming-soon-container h2 {
+    user-select: none;
+    font-family: "Patrick Hand", cursive;
+    letter-spacing: 3px;
+}
