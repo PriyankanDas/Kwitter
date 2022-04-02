@@ -10,7 +10,6 @@ loginButton.addEventListener("click", function() {
         username.focus();
         username.addEventListener("input", function() {
             username.placeholder = "Enter Username Here...";
-            self.close();
         });
     } else {
         localStorage.setItem("username", usernameVal);
